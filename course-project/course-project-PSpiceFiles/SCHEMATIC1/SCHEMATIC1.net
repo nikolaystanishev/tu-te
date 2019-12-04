@@ -1,0 +1,9 @@
+* source COURSE-PROJECT
+R_R4         0 N02037  43k TC=0,0 
+R_R2         N02037 N01955  48k TC=0,0 
+R_R5         N02037 N02043  19k TC=0,0 
+R_R1         N01945 N01955  8.8k TC=0,0 
+I_Je3         N02043 N01955 DC 8.4mAdc  
+V_E2         N02175 N02043 15Vdc
+R_R6         0 N02175  12k TC=0,0 
+V_E1         N01945 0 22Vdc

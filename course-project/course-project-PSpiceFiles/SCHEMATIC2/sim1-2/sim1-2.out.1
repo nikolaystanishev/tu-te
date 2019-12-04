@@ -1,0 +1,47 @@
+
+**** 12/04/19 23:32:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC2\sim1-2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1-2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 10 870 870
+---------------$
+ERROR(ORPSIM-16103): Invalid value
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+
+**** INCLUDING SCHEMATIC2.net ****
+* source COURSE-PROJECT
+R_R1         N03901 N03913  2k TC=0,0 
+R_R4         0 N03987  5k TC=0,0 
+C_C6         0 N04125  15u  TC=0,0 
+V_E2         N03997 N04125 DC 0Vdc AC 9Vac 
+L_L5         N03987 N03997  3.9mH  
+V_E1         0 N03901 DC 0Vdc AC 3Vac 
+C_C2         N03987 N03913  3u  TC=0,0 
+I_Je3         N03997 N03913 DC 0Adc AC 1mAac 
+
+**** RESUMING sim1-2.cir ****
+.END
+

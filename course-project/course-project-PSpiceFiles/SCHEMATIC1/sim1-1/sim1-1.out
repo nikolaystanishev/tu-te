@@ -1,0 +1,93 @@
+
+**** 12/04/19 23:24:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1-1"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC1\sim1-1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1-1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source COURSE-PROJECT
+R_R4         0 N02037  43k TC=0,0 
+R_R2         N02037 N01955  48k TC=0,0 
+R_R5         N02037 N02043  19k TC=0,0 
+R_R1         N01945 N01955  8.8k TC=0,0 
+I_Je3         N02043 N01955 DC 8.4mAdc  
+V_E2         N02175 N02043 15Vdc
+R_R6         0 N02175  12k TC=0,0 
+V_E1         N01945 0 22Vdc
+
+**** RESUMING sim1-1.cir ****
+.END
+
+**** 12/04/19 23:24:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1-1"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC1\sim1-1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N01945)   22.0000 (N01955)   76.7220 (N02037)  -27.9920 (N02043)  -81.8100     
+
+(N02175)  -66.8100 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_E2         5.567E-03
+    V_E1         6.218E-03
+
+    TOTAL POWER DISSIPATION  -2.20E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/04/19 23:24:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1-1"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC1\sim1-1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+
