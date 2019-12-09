@@ -1,0 +1,5 @@
+* source COURSE-PROJECT
+R_R         N04353 N04365  100 TC=0,0 
+V_E1         N04353 0 DC 0Vdc AC 3Vac 
+C_C         0 N04369  1.1u  TC=0,0 
+L_L         N04365 N04369  20mH  

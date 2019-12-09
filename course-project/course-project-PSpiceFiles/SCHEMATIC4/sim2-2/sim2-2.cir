@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-pspicefiles\schematic2\sim1-2.sim ] 
+** Profile: "SCHEMATIC4-sim2-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC4\sim2-2.sim ] 
 
-** Creating circuit file "sim1-2.cir" 
+** Creating circuit file "sim2-2.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -10,10 +10,10 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1 870 870
+.AC DEC 50 10.0 10.0k
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
-.INC "..\SCHEMATIC2.net" 
+.INC "..\SCHEMATIC4.net" 
 
 
 .END

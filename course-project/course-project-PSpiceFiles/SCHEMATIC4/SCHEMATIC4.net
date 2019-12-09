@@ -1,0 +1,5 @@
+* source COURSE-PROJECT
+I_Je1         0 N04353 DC 0Adc AC 4mAac 
+L_L         N04353 0  20mH  
+C_C         0 N04353  1.21u  TC=0,0 
+R_R         0 N04353  119 TC=0,0 

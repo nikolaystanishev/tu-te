@@ -1,7 +1,7 @@
-
-**** 12/04/19 23:35:53 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
 
- ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC2\sim1-2.sim ] 
+**** 12/09/19 15:39:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-pspicefiles\schematic2\sim1-2.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -43,9 +43,9 @@ I_Je3         N03997 N03913 DC 0Adc AC 1mAac
 **** RESUMING sim1-2.cir ****
 .END
 
-**** 12/04/19 23:35:53 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+**** 12/09/19 15:39:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
 
- ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC2\sim1-2.sim ] 
+ ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-pspicefiles\schematic2\sim1-2.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -77,9 +77,9 @@ I_Je3         N03997 N03913 DC 0Adc AC 1mAac
 
           JOB CONCLUDED
 
-**** 12/04/19 23:35:53 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+**** 12/09/19 15:39:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
 
- ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-PSpiceFiles\SCHEMATIC2\sim1-2.sim ] 
+ ** Profile: "SCHEMATIC2-sim1-2"  [ C:\Users\user\Workspace\tu\TE\course-project\course-project-pspicefiles\schematic2\sim1-2.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -89,6 +89,5 @@ I_Je3         N03997 N03913 DC 0Adc AC 1mAac
 
 
 
-  License check-out time            =        1.41
-  Total job time (using Solver 1)   =         .03
+  Total job time (using Solver 1)   =         .05
 
